@@ -1,0 +1,17 @@
+.navbar {
+    text-align: center;
+    color:whitesmoke;
+    background-color: #d5f4e6;
+    border: whitesmoke;
+    height: 150px;
+    vertical-align: middle;
+  }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d5f4e6;
+  height: 150px;
+}
+  

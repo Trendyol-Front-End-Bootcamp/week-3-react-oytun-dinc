@@ -1,0 +1,54 @@
+.card {
+  background-color: #80ced6;
+  color: #618685;
+  display: flex;
+  grid-column: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  height: 500px;
+}
+
+.card-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-content-section a {
+  color: white;
+  text-decoration: none;
+}
+.card-content-section:last-child span {
+  color: gray;
+}
+.card-content-section:last-child {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.info {
+  position: relative;
+  margin-left: 1rem;
+}
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+}
+
+.card-content {
+  padding: 0.5rem 1rem;
+  line-height: 1.6;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.card-content h3:hover {
+  color: #d5f4e6;
+}

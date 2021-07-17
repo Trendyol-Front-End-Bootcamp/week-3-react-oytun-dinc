@@ -1,0 +1,10 @@
+.change-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.change-page button {
+    margin-right: 2px;
+}

@@ -1,0 +1,53 @@
+.character {
+    display: grid;
+    place-items:center;
+    width: 90%;
+    min-height: 100vh;
+    max-width: var(--container);
+    margin: 0 auto;
+}
+
+.character > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.character > div > button {
+    order: 1;
+    width: 100%;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #80ced6;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;  
+}
+
+.character-info img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex: 2 1 0%;
+}
+  
+.character-detail {
+    padding: 1rem;
+    flex: 3 1 0%;
+}
+
+.character-detail h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.character-detail span {
+    color: gray;
+}
+
+.character-detail p {
+    margin-top: .5rem;
+}
